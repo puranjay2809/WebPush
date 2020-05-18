@@ -1,0 +1,8 @@
+{
+    "websiteName": "Safari Push Demo",
+    "websitePushID": "web.pjay.push",
+    "allowedDomains": ["http://localhost", "http://localhost:2500", "http://127.0.0.1:2500", "https://localhost:8443", "http://127.0.0.1", "https://localhost"],
+    "urlFormatString": "http://%@",
+    "authenticationToken": "19f8d7a6e9fb8a7f6d9330dabe",
+    "webServiceURL": "https://localhost:8443/Push_notification_war_exploded"
+}
