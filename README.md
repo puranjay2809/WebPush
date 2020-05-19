@@ -12,7 +12,7 @@ web notifications to safari once user grants permission.
 
 ### Create Safari Web Push certificate(.p12) and push package(.zip)
 
-[See here for more information]()
+[See here for more information](https://github.com/puranjay2809/WebPush/blob/master/Safari%20Push%20Notification%20Setup.pdf)
 
 ### Create a Tomcat Server
 
