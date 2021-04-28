@@ -36,6 +36,16 @@ and edit server.xml under conf folder
     <keystorePass>{your keystore pass}</keystorePass>
 </configuration>
 ```
+
+Also, have the logging service hosted at 
+```
+ <servlet-mapping>
+        <servlet-name>Safari-Push-Package</servlet-name>
+        <url-pattern>/v1/*</url-pattern>
+    </servlet-mapping>
+```
+APNS service hits this service and logs any error that is raised
+
 This is required because Safari backend service to handle the push package should be hosted on https. The same https url is mentioned in Push Package's website.json
 ```
 {
